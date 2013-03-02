@@ -1,0 +1,64 @@
+!##############################################################################
+! URXVT ConfigURation
+!##############################################################################
+
+!--------------- Terminal ---------------!
+URxvt*termName:		xterm-256color
+URxvt*meta8:		false
+URxvt.modifier:		meta
+URxvt.scrollBar:	false
+
+!--------------- Font ConfigURation ---------------!
+URxvt*font:		xft:Anonymous Pro:size=13:antialiasing=true 
+
+URxvt.perl-ext-common:	default,tabbed, -sercheable-scrollback
+
+URxvt.tabbed.tabbar-fg:	2
+URxvt.tabbed.tabbar-bg:	[0]0
+URxvt.tabbed.tab-fg:	3
+URxvt.tabbed.tab-bg:	0
+
+
+!--------------- Color scheme zenburn ---------------!
+! Based on the emacs package zenburn-theme from elpa
+URxvt.depth:		32
+
+URxvt*background:	[90]#3f3f3f
+URxvt*foreground:	#dcdccc
+URxvt*CursorColor:	#aaaaaa
+URxvt*colorUL:		#366060
+URxvt*underlineColor:	#dfaf8f
+
+
+
+!--------------- Zenburn Colors ---------------!
+! 0-7 -> darker colors
+! 8-15 -> lighter  colors
+! 0 -> black
+! 1 -> red
+! 2 -> green
+! 3 -> yellow
+! 4 -> blue
+! 5 -> magenta
+! 6 -> cyan
+! 7 -> white
+
+URxvt*color0:		[100]#3f3f3f
+URxvt*color1:		#bc8383
+URxvt*color2:		#5f7f5f
+URxvt*color3:		#e0cf9f
+URxvt*color4:		#6ca0a3
+URxvt*color5:		#dc8cc3
+URxvt*color6:		#93e0e0
+URxvt*color7:		#dcdccc
+
+URxvt*color8:		#636363
+URxvt*color9:		#dca3a3
+URxvt*color10:		#7f9f7f
+URxvt*color11:		#f0dfaf
+URxvt*color12:		#8cd0d3
+URxvt*color13:		#dc8cc3
+URxvt*color14:		#93e0e3
+URxvt*color15:		#ffffff
+
+
