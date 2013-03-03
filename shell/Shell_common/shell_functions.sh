@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function which_shell() {
     local my-shell=""
     if [ $BASH_VERSION ]; then
@@ -9,7 +11,7 @@ function which_shell() {
 }
 
 function rload() {
-local shell=$(which_shell)
-echo $HOME/.${shell}rc
-source  $HOME/.${shell}rc
+    local shell=$(which_shell)
+    echo $HOME/.${shell}rc
+    source  $HOME/.${shell}rc
 }
