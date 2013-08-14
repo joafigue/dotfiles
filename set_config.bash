@@ -55,6 +55,9 @@ function files_config() {
     files[Xresources]="X11_config/Xresources .Xresources"
 
     files[Xmonad]="xmonad/xmonad.hs .xmonad/xmonad.hs"
+    
+    files[screen]="terminals/screenrc .screenrc"
+    files[tmux]="terminals/tmux.conf .tmux.conf"
 
 }
 
