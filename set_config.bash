@@ -45,8 +45,8 @@ function files_config() {
     ## Associative array with the files in the project
     declare -g -A files
     files[bashrc]="shell/Shell_common/posix.sh .bashrc"
-    files[bash_logout]="shell/bash/bash_logout.bash .bash_logout"
-    files[bash_profile]="shell/bash/bash_profile.bash .bash_profile"
+    files[bash_logout]="shell/bash/bash_logout .bash_logout"
+    files[bash_profile]="shell/bash/bash_profile .bash_profile"
 
     files[zshrc]="shell/Shell_common/posix.sh .zshrc"
 

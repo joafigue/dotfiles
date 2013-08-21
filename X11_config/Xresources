@@ -10,9 +10,11 @@ URxvt.modifier:		meta
 URxvt.scrollBar:	false
 
 !--------------- Font ConfigURation ---------------!
-URxvt*font:		xft:Anonymous Pro:size=13:antialiasing=true 
-URxvt*keysym.Home: \033[H
-URxvt*keysym.End:  \033[F
+URxvt*font:		xft:Anonymous Pro:size=11:antialiasing=false
+URxvt*boldFont:         xft:Anonymous Pro:bold:size=16:antialias=true:hinting=false
+!! URxvt*font:		xft:Anonymous Pro:size=13:antialiasing=true 
+URxvt*keysym.Home:      \033[H
+URxvt*keysym.End:       \033[F
 
 !! URxvt.perl-ext-common:	default,tabbed, -sercheable-scrollback
 !! URxvt.tabbed.tabbar-fg:	2
