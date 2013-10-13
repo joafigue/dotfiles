@@ -21,3 +21,8 @@ read_buffer_show_icons = true;
 // but really we'd also like to know how many buffers are present and which is the current
 add_hook("mode_line_hook", mode_line_adder(buffer_count_widget), true);
 
+// Delete google webjump
+delete webjumps.google
+// alias g to duckduckgo (for ease of typing)
+webjumps.g = webjumps.duckduckgo
+
