@@ -53,6 +53,7 @@ function files_config() {
     files[conkeror]="browser/conkeror_configs/conkerorrc.js .conkerorrc"
 
     files[Xresources]="X11_config/Xresources .Xresources"
+    files[xinitrc]="X11_config/xinitrc .xinitrc"
 
     files[Xmonad]="xmonad/xmonad.hs .xmonad/xmonad.hs"
     

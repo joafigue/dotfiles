@@ -26,3 +26,15 @@ delete webjumps.google
 // alias g to duckduckgo (for ease of typing)
 webjumps.g = webjumps.duckduckgo
 
+// XKCD FIX
+xkcd_add_title = true;
+
+
+// reload conkerorrc with C-c r
+interactive("reload-config", "reload conkerorrc",
+       function(I) {
+          load_rc();
+          I.window.minibuffer.message("config reloaded");
+       }
+);
+define_key(default_global_keymap, "C-c r", "reload-config");
