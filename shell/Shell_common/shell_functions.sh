@@ -16,19 +16,6 @@ function rload() {
     source  $HOME/.${shell}rc
 }
 
-function walls() {
-current=$PWD;
-wallpapers=$HOME/Ocio/Pictures/Wallpapers;
-cd $wallpapers
-
-while true; do
-    find ./ -type f \( -name '*.jpg' -o -name '*.png' \) -print0 |
-        shuf -n1 -z | xargs -0 feh --bg-fill
-        sleep 40
-done
-
-}
-
 
 function colors(){
 #/bin/bash
