@@ -10,24 +10,25 @@ URxvt.modifier:		meta
 URxvt.scrollBar:	false
 
 !--------------- Font ConfigURation ---------------!
+!URxvt*font:		xft:DejaVu Sans Mono:size=11:antialiasing=true
 URxvt*font:		xft:Anonymous Pro:size=11:antialiasing=true
 URxvt*boldFont:         xft:Anonymous Pro:bold:size=11:antialias=true:hinting=false
 !! URxvt*font:		xft:Anonymous Pro:size=13:antialiasing=true 
 URxvt*keysym.Home:      \033[H
 URxvt*keysym.End:       \033[F
 
-!! URxvt.perl-ext-common:	default,tabbed, -sercheable-scrollback
-!! URxvt.tabbed.tabbar-fg:	2
-!! URxvt.tabbed.tabbar-bg:	[0]0
-!! URxvt.tabbed.tab-fg:	3
-!! URxvt.tabbed.tab-bg:	0
+
+!!  Disable Perl extensions
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+
 
 
 !--------------- Color scheme zenburn ---------------!
 ! Based on the emacs package zenburn-theme from elpa
 URxvt.depth:		32
 
-URxvt*background:	[60]#3f3f3f
+URxvt*background:	[70]#3f3f3f
 URxvt*foreground:	#dcdccc
 URxvt*CursorColor:	#aaaaaa
 URxvt*colorUL:		#366060
