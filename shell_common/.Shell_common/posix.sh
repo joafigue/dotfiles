@@ -19,17 +19,12 @@
 
 alias ls='ls --color=auto'
 
-SHELL_SOURCES=$(echo $(ls $HOME -al | grep -m 1 posix.sh ) | sed 's:.*->.\(.*\)\(/Shell_common/posix.sh\).*:\1:')
-SHELL_COMMON=$SHELL_SOURCES/Shell_common
+SHELL_COMMON="${HOME}/.Shell_common"
 
 ## Source configuration files by functionality
 source $SHELL_COMMON/shell_functions.sh
 source $SHELL_COMMON/emacs_functions.sh
 source $SHELL_COMMON/alias.sh
-
-MY_SHELL=$(which_shell)
-SPECIFIC_SOURCES=$SHELL_SOURCES/$MY_SHELL
-source $SPECIFIC_SOURCES/${MY_SHELL}.${MY_SHELL}
 
 ## Clear variables
 unset SHELL_SOURCES
