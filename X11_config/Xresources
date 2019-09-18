@@ -28,7 +28,7 @@ URxvt.perl-ext-common:
 ! Based on the emacs package zenburn-theme from elpa
 URxvt.depth:		32
 
-URxvt*background:	[70]#3f3f3f
+URxvt*background:	[80]#3f3f3f
 URxvt*foreground:	#dcdccc
 URxvt*CursorColor:	#aaaaaa
 URxvt*colorUL:		#366060
@@ -67,3 +67,11 @@ URxvt*color14:		#93e0e3
 URxvt*color15:		#ffffff
 
 
+
+
+! Emacs.font:             Anonymous Pro:size=11:antialiasing=true ! DejaVu Sans Mono:pixelsize=13
+! Emacs.FontBackend:      xft
+! Xft.hinting: true 
+! Xft.hintstyle: hintfull 
+! Xft.antialias: rgba 
+! Xft.rgba: rgb

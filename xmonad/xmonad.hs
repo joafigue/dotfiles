@@ -27,4 +27,8 @@ main = xmonad $ ewmh defaultConfig
     [ ("M-S-h", sendMessage MirrorShrink),
       ("M-S-l", sendMessage MirrorExpand),
       ("M-C-l", spawn "slock")
+    , ("<XF86AudioMute>", spawn "amixer set Master toggle")
+    , ("<XF86AudioLowerVolume>", spawn "amixer set Master 2%-")
+    , ("<XF86AudioRaiseVolume>", spawn "amixer set Master 2%+")
+    , ("<F12>", spawn "scrot")
     ]
