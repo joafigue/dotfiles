@@ -55,3 +55,8 @@ mv "$file" "$target";
 done;
 
 }
+
+lisp() {
+    guile -c '(display '"${@}"')'
+    guile -c '(display "\n")'
+}

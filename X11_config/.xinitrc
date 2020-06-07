@@ -19,8 +19,8 @@ fi
 
 # xrandr --output LVDS-1-0 --mode 1366x768  --output VGA-0 --mode 1024x768 --dpi 96
 
- xrandr --setprovideroutputsource modesetting NVIDIA-0 
- xrandr --auto --dpi 96
+# xrandr --setprovideroutputsource modesetting NVIDIA-0 
+# xrandr --auto --dpi 96
 
 if [ -f $HOME/.Xresources ]; then
    xrdb $HOME/.Xresources
