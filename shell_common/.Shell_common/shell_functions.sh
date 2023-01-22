@@ -60,3 +60,10 @@ lisp() {
     guile -c '(display '"${@}"')'
     guile -c '(display "\n")'
 }
+
+function tm() {
+  # Maybe there is a whitespace problem, but I dont use
+  # whitespaces in directory names so is a non-issue
+  TMUX_SESSION=$(basename "$(pwd)")
+  tmux new -A -s "${TMUX_SESSION}" -e "TMUX_SESSION=${TMUX_SESSION}"
+}

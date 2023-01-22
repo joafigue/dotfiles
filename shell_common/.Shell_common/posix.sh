@@ -32,15 +32,5 @@ unset SHELL_COMMON
 unset SPECIFIC_SOURCES
 
 
-EDITOR="emacsclient -t"
-VISUAL="emacsclient -c"
-
-
-alias edaemon="emacs --daemon"
-alias noemacs="emacsclient --eval '(kill-emacs)'"
-
-
-alias emf="emacsclient -c -n"
-alias em="emacsclient -t"
 alias semf="emacs &"
 alias sem="emacs -nw"
