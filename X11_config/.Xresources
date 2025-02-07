@@ -11,10 +11,11 @@ URxvt.scrollBar:	false
 
 !--------------- Font ConfigURation ---------------!
 !URxvt*font:		xft:DejaVu Sans Mono:size=11:antialiasing=true
-!URxvt*font:		xft:Anonymous Pro:size=11:antialiasing=true
-URxvt*font:		xft:Liberation Mono:size=11:antialiasing=true
-URxvt*boldFont:     xft:Liberation Mono:bold:size=14:antialias=true:hinting=false
-!URxvt*font:		xft:Fira Code:size=11:antialiasing=true
+!URxvt*font:		xft:Anonymous Pro:style=Regular
+URxvt*font:		xft:AnonymicePro Nerd Font Mono:style=Regular:size=12
+!URxvt*font:		xft:Liberation Mono:size=11:antialiasing=true
+!URxvt*boldFont:     xft:Liberation Mono:bold:size=14:antialias=true:hinting=false
+!URxvt.font:		xft:Fira Code:style=Regular:size=11
 !URxvt*boldFont:         xft:Fira Code:bold:size=14:antialias=true:hinting=false
 URxvt*keysym.Home:      \033[H
 URxvt*keysym.End:       \033[F
